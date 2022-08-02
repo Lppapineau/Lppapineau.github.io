@@ -1,11 +1,11 @@
 {
-    "name": "nrop_site",
-    "short_name": "nrop_site",
+    "name": "Flutter Mapp",
+    "short_name": "Flutter Mapp",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "description": "Flutter courses for beginners. Flutter Mapp is the fastest way to learn Flutter from scratch. With every Flutter course, you will receive personal assistance form Flutter experts.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
