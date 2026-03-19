@@ -5,11 +5,11 @@ import { flutterChecklist, slice1, slice2, slice3 } from "../assets";
 
 const SectionHeader = () => (
   <section id={idNavLink1} className={`${styles.paddingY} ${styles.flexCenter} flex-col relative`}>
-    <div className="w-full flex justify-between items-center md:flex-row flex-col sm:mb-8 mb-6 relative z-[1]">
+    {/* <div className="w-full flex justify-between items-center md:flex-row flex-col sm:mb-8 mb-6 relative z-[1]">
       <h2 className={styles.heading2}>
-        Welcome<br className="sm:block hidden" />
+        Food Coma<br className="sm:block hidden" />
       </h2>
-    </div>
+    </div> */}
     <div className={layout.sectionReverse}>
       <div className={`${layout.sectionImgReverse} gap-4`}>
         <img src={slice1} alt="zeroToFlutterPro" className="w-[30%] relative z-[5] rounded-[20px] shadow-lg" /><img src={slice2} alt="zeroToFlutterPro" className="w-[30%] relative z-[5] rounded-[20px] shadow-lg" />
