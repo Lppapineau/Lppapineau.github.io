@@ -40,11 +40,15 @@ const PrivacyPolicyBody = () => (
           text: "The app does not contain advertisements, analytics, or tracking tools.",
         },
         {
-          title: "6. Your Data, Your Control",
+          title: "6. Data Retention",
+          text: "We retain your data only for as long as necessary to provide the service. On-device data (no account) is stored only on your device and permanently deleted when you uninstall the app. Account data (email, logs, weight, goals) is retained while your account is active and permanently deleted within 30 days of an account deletion request. Food photos or descriptions sent to the Gemini API are not stored by us. Health data from Apple Health or Google Health Connect is read in real time and never stored on our servers.",
+        },
+        {
+          title: "7. Your Data, Your Control",
           text: "If no account is created and Health Connect is not enabled, no data ever leaves your device. If you delete the app without an account, all data is permanently deleted. If you have an account, you can request deletion of your data at any time by contacting us.",
         },
         {
-          title: "7. Updates to This Policy",
+          title: "8. Updates to This Policy",
           text: "If we change how the app handles data, we will update this Privacy Policy and make it available in the app or on our website.",
         },
       ].map((item, i) => (
